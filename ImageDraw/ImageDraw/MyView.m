@@ -21,9 +21,8 @@
         
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.cocoachina.com/cms/uploads/allimg/130709/11412TO7-0.png"]];
         NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-        NSLog(@"test1");
         [conn start];
-        
+        NSLog(@"test1");
         NSLog(@"test2");
         myView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 497, 542)];
         [self addSubview:myView];
