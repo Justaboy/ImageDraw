@@ -21,6 +21,7 @@
         
         NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.cocoachina.com/cms/uploads/allimg/130709/11412TO7-0.png"]];
         NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+        NSLog(@"test1");
         [conn start];
         
         
