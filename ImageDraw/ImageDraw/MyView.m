@@ -24,7 +24,7 @@
         NSLog(@"test1");
         [conn start];
         
-        
+        NSLog(@"test2");
         myView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 497, 542)];
         [self addSubview:myView];
         self.contentSize = CGSizeMake(500, 600);
